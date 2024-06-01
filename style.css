@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; /* light grey background */
+}
+
+#chatbot {
+    width: 350px; /* Set the width of the chatbot container */
+    height: 500px; /* Set the height of the chatbot container */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow for depth */
+    z-index: 1000; /* make sure it's on top of other content */
+}
